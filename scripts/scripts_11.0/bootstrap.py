@@ -184,6 +184,7 @@ COMPRESS_CACHE_BACKEND = 'locmem'""")
         fp.write('\n')
         fp.write('FILE_SERVER_ROOT = "{proto}://{domain}/seafhttp"'.format(proto=proto, domain=domain))
         fp.write('\n')
+        fp.write('DEBUG=True\n')
 
     # Disabled the Elasticsearch process on Seafile-container
     # Connection to the Elasticsearch-container
